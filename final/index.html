@@ -1,0 +1,56 @@
+<!doctype html><html><head><meta charset="utf-8"><title>PortfolioDirectory</title><base href="#"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="/style.css"><link href="styles.3e59f9cf1a48941224ec.bundle.css" rel="stylesheet"/></head><body><app-root>Loading...</app-root><script src="https://use.fontawesome.com/fbb03ce934.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!--<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>--><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script>$(function() {
+		var selectedClass = "";
+		$(".fil-cat").click(function(){ 
+		selectedClass = $(this).attr("data-rel"); 
+     $("#portfolio").fadeTo(100, 0.1);
+		$("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+    setTimeout(function() {
+      $("."+selectedClass).fadeIn().addClass('scale-anm');
+      $("#portfolio").fadeTo(300, 1);
+    }, 300); 
+		
+	});
+    });</script><script>$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+    });</script><!--<script>
+	$(document).ready(function(){
+
+		var text = $('.typewriter').text();
+
+var length = text.length;
+var timeOut;
+var character = 0;
+
+
+(function typeWriter() { 
+    timeOut = setTimeout(function() {
+        character++;
+        var type = text.substring(0, character);
+        $('.typewriter').text(type);
+        typeWriter();
+        
+        if (character == length) {
+            clearTimeout(timeOut);
+        }
+        
+    }, 50);
+}());
+
+        $('.begin').click( function(){
+            $('.typewriter').css('display','none');
+            $('.homeMain').css('display','block');
+        });
+	});
+
+</script>--><script type="text/javascript" src="inline.83ea418b2847bb2d1f12.bundle.js"></script><script type="text/javascript" src="polyfills.84f6ff51f78678fc8924.bundle.js"></script><script type="text/javascript" src="vendor.1744b017c27d4d53a8a8.bundle.js"></script><script type="text/javascript" src="main.7722d8e54a1134a4208a.bundle.js"></script></body></html>
