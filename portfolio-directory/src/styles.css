@@ -1,0 +1,311 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	width: 100%;
+    float: left;
+    height: 100%;
+    color: #000
+}
+a {text-decoration: none}
+.float-rt {
+	float: right
+}
+.float-lt {
+	float: left
+}
+.wrapper{
+    /*background: url(https://static.pexels.com/photos/60289/pexels-photo-60289.jpeg) no-repeat center;*/
+    background: #000;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+}
+/*.homeMain{display: none}*/
+.leftCont{
+    left: 0;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #000;
+    z-index: 10;
+    position: fixed;
+}
+
+.leftCont .top{
+    padding: 20px;
+    height: 350px;
+}
+.bottom{padding: 0}
+.leftCont h2{color:#e5e5e5}
+.rightCont{
+	position: relative;
+    background: #fff;
+    float: right;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    padding: 0;
+}
+.typewriter{
+    color: #fff;
+    margin-top: 2em;
+    font-size: 2em;
+    padding: 10px;
+    font-family: cursive;
+}
+.icons {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.icons i{font-size: 50px}
+.icons .homeText {
+    margin-bottom: 5em
+}
+.workWrap{
+    padding: 3em;
+    height: 100%;
+    float: left;
+    width: 100%;
+}
+.workWrap .col-md-4{margin-bottom: 3em}
+.workWrap p{margin-bottom: 3em}
+/*.menu{display:flex}*/
+.menu a{text-decoration: none}
+.menu a h2 {
+    font-size: 16px;
+    padding: 10px;
+    text-decoration:none;
+}
+/*.skills {
+    background: url(http://www.wildcarpathia.org/wp-content/uploads/2016/04/slideshare-presentation-ideas.jpg) no-repeat center 0px;
+    background-size: cover;
+    height: 335px;
+    clear: both;
+}*/
+
+app-home {width:75% !important}
+.icons iframe {width: 100%;height: 100vh}
+.profileImg img {
+    width: 20%;
+    float: left;
+    position: relative;
+    top: -3px;
+    margin-right:2em;
+}
+.profileImg p {
+    font-family: arial;
+    margin: 0;
+    padding: 1em 0;
+}
+.profileText {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #555;
+    padding-bottom: 1em;
+}
+.profileImg {
+    border-bottom: 1px solid #555;
+    padding-bottom: 2em;
+}
+.leftCont {
+    background: url(http://25.media.tumblr.com/8203b6ceca7fa31d24a5fc80d52625d6/tumblr_mscf15ShBd1rtp2uuo1_500.png) no-repeat center center;
+    background-size: cover;
+}
+.bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    left: 0;
+    top: 0;
+}
+.menu h2 span {
+    position: relative;
+    top: -3px;
+}
+.menu h2 i {
+    font-size: 25px;
+    margin-right: 20px;
+    width: 30px;
+    text-align: center;
+}
+.menu .fa-angle-right {opacity: 0; float: right;margin-right: 0}
+.menu h2:hover .fa-angle-right {opacity: 1;transition: all 0.5s ease;}
+.menu h2:hover {background: rgba(255, 255, 255, 0.1); transition: all 0.5s ease;}
+
+
+#portfolio {  
+    margin: 1rem 0;
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+.tile { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+}
+
+.scale-anm {
+  transform: scale(1);
+}
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  
+}
+
+.btn {
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    padding: .5rem 1rem;
+    margin: 0;
+    height: auto;
+    border: 1px solid;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #555;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+  border-color: var(--darken-2);
+  box-shadow: 0 0 0 3px var(--darken-3);
+}
+.design-pts, .dev-pts {margin-top: 45px}
+/*.pg-title {margin-bottom:30px;}*/
+.pie {
+    padding: 50px;
+    float:left;
+    width: 100%;
+    padding-top: 30px;
+}
+.counter
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 20px 5px;
+    border: 2px solid #fff;
+}
+.count
+{
+    line-height: 80px;
+    color: white;
+    font-size: 25px;
+}
+.counter-wrap .icon i {font-size: 30px;color:#fff;}
+.progress {height: 25px}
+.progress-bar {line-height: 25px;font-weight:600}
+#parallax-counter {
+    background: url(./assets/images/parallax-bg.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+}
+/*.progress-bar-warning {
+    background-color: #a5a5a5;
+}*/
+.profileImg p span {
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    border: 1px solid #fff;
+}
+.profileImg p span:hover{
+    background: #fff;
+    color: #000;
+    transition: all 0.5s ease;
+}
+.profileImg a {text-decoration: none;}
+.hr-underline {
+    text-align: center;
+    width: 50px;
+    height: 3px;
+    background: #333;
+}
+p.abt-txt {margin-bottom: 30px;}
+.contact-wrap {
+    padding: 0 50px;
+    float: left;
+    width: 100%;
+}
+.contact-box {padding:50px 0;}
+.contact-box ul li {display: flex}
+.contact-box ul li i {
+    background: #f2f2f2;
+    font-size: 20px;
+    padding: 10px 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 10px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+}
+.contact-box ul li p{
+    position: relative;
+    top: 20px;
+    margin: 0 10px;
+}
+.contact-box input {
+    line-height: inherit;
+    color: #999999;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 26px 3%;
+    background: #f5f5f5;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
+}
+.contact-box h4.first {margin-left: 50px;}
+.contact-box input#submit {
+    border: 1px solid;
+    background: #333;
+    height: auto;
+    padding: 10px;
+    color: #fff;
+}
+.contact-box textarea {
+    line-height: inherit;
+    color: #999999;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 26px 3%;
+    background: #f5f5f5;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
+}
+.contact-box .social {display: flex;}
